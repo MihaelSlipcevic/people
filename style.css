@@ -1,0 +1,74 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-image: url(for.gif);
+color: white;
+background-size: cover;
+}
+
+h1{
+  font-family: "Archivo Black", sans-serif;
+}
+
+h1 {
+  font-size: 4.25rem;
+  text-align: center;
+  
+}
+
+header p {
+  font-family: font-family: "Montserrat", sans-serif;;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+
+
+p{
+  font-family: font-family: "Montserrat", sans-serif;;
+  font-size: 1.35rem;
+}
+
+article{
+
+
+
+}
+
+span{
+
+  font-size: 2rem;
+
+  word-spacing: 5px;
+
+}
+
+
+@media screen and (min-width: 48em) {
+    article {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      column-gap: 20px;
+    }
+
+@media screen and (min-width: 64em) {
+    article {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+
+    }
+}
